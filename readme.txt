@@ -3,7 +3,7 @@ Contributors: mahmoud
 Donate link: https://buymeacoffee.com/mahmoudalawad
 Tags: forms, quick edit, contact form 7, wpforms, frontend editor
 Requires at least: 5.6
-Tested up to: 6.7
+Tested up to: 6.9
 Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GPLv2 or later
