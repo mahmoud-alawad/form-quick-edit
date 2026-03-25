@@ -1,0 +1,58 @@
+.fqe-wrapper {
+  position: relative;
+}
+
+.fqe-quick-edit {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  z-index: 99999;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: #2271b1;
+  color: #fff !important;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    sans-serif;
+  line-height: 1;
+  text-decoration: none !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.2s ease,
+    visibility 0.2s ease,
+    background 0.2s ease;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.fqe-quick-edit svg {
+  flex-shrink: 0;
+}
+
+.fqe-wrapper:hover .fqe-quick-edit {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.fqe-quick-edit:hover {
+  background: #135e96;
+  color: #fff !important;
+}
+
+.fqe-quick-edit:focus {
+  outline: 2px solid #2271b1;
+  outline-offset: 2px;
+}
+
+.fqe-wrapper:hover {
+  outline: 2px dashed #2271b1;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
