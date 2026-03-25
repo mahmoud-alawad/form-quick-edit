@@ -1,6 +1,7 @@
 === Form Quick Edit ===
 Contributors: mahmoud
-Tags: forms, quick edit, contact form 7, wpforms, fluent forms, forminator, ninja forms, sureforms, admin
+Donate link: https://buymeacoffee.com/mahmoudalawad
+Tags: forms, quick edit, contact form 7, wpforms, frontend editor
 Requires at least: 5.6
 Tested up to: 6.7
 Requires PHP: 7.4
@@ -27,7 +28,7 @@ No more hunting through the dashboard to find the right form — just hover and 
 
 = Features =
 
-* Edit button appears only for administrators
+* Edit button appears only for users with the right capability per plugin
 * Opens the form editor in a new tab
 * Subtle dashed outline on hover to identify the form area
 * Lightweight — no jQuery dependency, minimal CSS and JS
@@ -43,7 +44,7 @@ No more hunting through the dashboard to find the right form — just hover and 
 
 = Who can see the edit button? =
 
-Only users with the `manage_options` capability (typically administrators).
+Users who have the capability to edit forms for the specific plugin. For example, CF7 requires `wpcf7_edit_contact_forms`, Fluent Forms requires `fluentform_forms_manager`, and so on. Administrators can see all edit buttons.
 
 = Does it affect the frontend for regular visitors? =
 
@@ -56,6 +57,11 @@ The plugin is developer-friendly. You can extend it by hooking into the appropri
 == Screenshots ==
 
 1. Quick Edit button appearing on hover over a Contact Form 7 form.
+
+== Upgrade Notice ==
+
+= 1.0.0 =
+Initial release.
 
 == Changelog ==
 
