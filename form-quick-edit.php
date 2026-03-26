@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: Form Quick Edit
- * Description: Aggiunge un'icona 'Quick Edit' ai form nel frontend. Permette agli amministratori di accedere istantaneamente all'editor del form con un solo click.
+ * Description: Adds a 'Quick Edit' icon to frontend forms. It allows administrators to instantly access the form editor with a single click.
  * Version: 1.0.0
  * Author: Mahmoud
  * Text Domain: form-quick-edit
